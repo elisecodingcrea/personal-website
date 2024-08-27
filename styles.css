@@ -8,3 +8,25 @@ body {
     background-color: lightpink; /* Changes the background color to light pink */
     color: brown; /* Changes the text color to light brown */
 }
+#navbar {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+#navbar a {
+  color: #5c4033; /* Brown */
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+#navbar a:hover {
+  background-color: #e2b9b6; /* Slightly darker pink */
+  border-radius: 5px;
+}
+
+/* Section Styles */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
